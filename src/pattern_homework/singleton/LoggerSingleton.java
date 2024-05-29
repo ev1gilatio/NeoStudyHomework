@@ -21,6 +21,6 @@ public class LoggerSingleton {
                 + LocalDateTime.now().getHour() + ":"
                 + LocalDateTime.now().getMinute() + ":"
                 + LocalDateTime.now().getSecond() + "]";
-        System.out.println(dateTime + "Log info:" + obj.getClass() + " " + info);
+        System.out.println(dateTime + "Log info: " + obj.getClass().getName() + " - " + info);
     }
 }

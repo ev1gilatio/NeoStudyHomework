@@ -28,6 +28,6 @@ public class Main {
         connector.connectToDB();
 
         LoggerSingleton logger = LoggerSingleton.getInstance();
-        logger.classLogg(Main.class, "method main");
+        logger.classLogg(computer, "method main");
     }
 }
